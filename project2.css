@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Poppins:wght@500&family=Righteous&display=swap');
+
+body {
+  width: 100%;
+  overflow: hidden;
+  background: url("space.jpg");
+  background-size: cover;
+}
+h2{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+  font-family: 'Righteous', cursive;
+}
+#board {
+  
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 40px auto;
+  border: 4px solid #0cffe1;
+  background-color: black;
+  overflow: hidden;
+}
+
+#jet {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: url("rocket.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  left: 50%;
+  bottom: 0px;
+}
+
+.bullets {
+  position: absolute;
+  bottom: 40px;
+  left: 51%;
+  width: 20px;
+  height: 20px;
+  background: url("bullet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rocks {
+  position: absolute;
+  top: 0px;
+  width: 50px;
+  height: 50px;
+  background: url("alien.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#score{
+  position: absolute;
+  top: 0rem;
+  left: 2rem;
+  margin: 40px;
+  font-size: 10em;
+  color: white;
+  font-family: 'Righteous', cursive;
+  
+}
+#points {
+  position: absolute;
+  top: 12rem;
+  left: 14rem;
+  margin: 40px;
+  align-items: center;
+  font-size: 10em;
+  color: white;
+  font-family: 'Righteous', cursive;
+  
+}
+#restartButton{
+  position: absolute;
+  border: none;
+  background-color: whitesmoke;
+  border-radius: 1em;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: 3rem;
+  font-family: 'Righteous', cursive;
+}
